@@ -1,0 +1,1 @@
+﻿locust -f .\long-running-op.py --host https://localhost:44322/LongRunningOp --users 10 --spawn-rate 20
